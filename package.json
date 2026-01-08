@@ -1,0 +1,45 @@
+{
+  "name": "tinky",
+  "version": "0.1.0",
+  "description": "React for CLIs, re-imagined with the Taffy engine",
+  "keywords": [
+    "react",
+    "ink",
+    "taffy",
+    "cli",
+    "terminal",
+    "layout-engine",
+    "flexbox",
+    "grid",
+    "renderer"
+  ],
+  "homepage": "https://github.com/ByteLandTechnology/tinky#readme",
+  "bugs": {
+    "url": "https://github.com/ByteLandTechnology/tinky/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByteLandTechnology/tinky.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ByteLandTechnology"
+  },
+  "type": "module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "tsc",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}
