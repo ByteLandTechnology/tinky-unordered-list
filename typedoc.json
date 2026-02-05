@@ -1,0 +1,14 @@
+{
+  "plugin": ["typedoc-plugin-markdown"],
+  "disableSources": true,
+  "out": "docs/api",
+  "externalSymbolLinkMappings": {
+    "tinky": {
+      "BoxProps": "#",
+      "TextProps": "#"
+    },
+    "tinky-theme": {
+      "ComponentTheme": "#"
+    }
+  }
+}
